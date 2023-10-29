@@ -1,0 +1,191 @@
+@import url(//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9cfc4;
+    
+}
+.header {
+    display: block;
+    width: 100%;
+    height: 350px;
+    background-image: url("slika.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
+    background-position: 50% 40%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #61341e;
+    position: sticky;
+    top: 0;
+    opacity: 90%;
+    margin-top: -60px;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    color: #eccfa6;
+    text-decoration: none;
+    font-family: "Game of Thrones";
+}
+nav a:hover {
+    background-color: #8a8285;
+}
+nav a.active {
+    background-color: #4e4344;
+}
+
+section {
+    margin: 0 15%;
+    display: flex;
+}
+.tekst {
+    margin: 50px 100px;
+    text-align: justify;
+    font-family: "Roboto";
+    font-style: italic;
+}
+.odeljak {
+    flex: 1;
+}
+.odeljak h4 {
+    text-align: center;
+    font-family: "Game of Thrones";
+    font-weight: bold;
+    font-size: larger;
+}
+.odeljak p {
+    text-align: justify;
+}
+.kolona2 {
+    margin: 0 80px;
+}
+.slika {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.glavno {
+    font-family: "Roboto";
+}
+.dugme {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(226, 248, 202);
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+}
+.dugme a {
+    text-decoration: none;
+    color: black;
+    margin: auto auto;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer ul {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+footer li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #61341e;
+}
+footer a{
+    font-family: "Game of Thrones";
+    text-decoration: none;
+    color: #eccfa6;
+    margin: 5px;
+}
+@media screen and (max-width: 600px) {
+    section {
+        display: block;
+        margin: 0 5%;
+    }
+    .kolona2 {
+        margin: auto;
+    }
+}
+.kolone {
+    margin:20px 0;
+}
+/*.kolone p,h4 {
+    width: 50%;
+}*/
+.sekcija2 {
+    width: 35%;
+    margin: auto;
+}
+.kolone img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.kolone h4 {
+    font-family: "Roboto";
+}
+.levakolona {
+    margin-right: 20px;
+
+}
+.desnakolona {
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px) {
+    section {
+        display: block;
+        margin: 0 5%;
+    }
+    .kolone {
+        padding: 25px;
+    }
+    .sekcija2 {
+        width: 100%;
+    }
+    .sekcija3 {
+        width: 100%;
+        margin: 0;
+    }
+    .sekcija4 {
+        width: 100%;
+        margin: 0;        
+    }
+    iframe {
+        width: 100%;
+        margin: 0;
+    }
+    .levakolona {
+        margin-right: 0;
+    
+    }
+    .desnakolona {
+        margin-left: 0;
+    }
+}
+iframe {
+    width: 100%;
+    margin: auto auto;
+}
+.sekcija3 {
+    width:50%;
+    margin: auto;
+}
+.sekcija4 {
+    width:60%;
+    margin: auto;
+}
